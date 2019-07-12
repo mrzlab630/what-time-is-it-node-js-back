@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "what-time-is-it-back-end",
+            "script": "npm",
+            "args" : "start",
+            "merge_logs": true,
+            "watch"     : true
+        }
+    ]
+}
