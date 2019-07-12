@@ -25,13 +25,15 @@ open **http://localhost:4419**
 * **/api/v1/crtgeonamedb** -- GET -- download GeoLite2-City-CSV.zip from https://dev.maxmind.com/geoip/geoip2/geolite2/ and create Postgresql database
 * **/api/v1/getcitydata** -- POST -- to find data by a partial city name.
 <br> 
-send: ``{
+send: 
+
+``{
    action:'getcitydata',
    nocache:new Date().getTime(),
   data:{
        city:'Paris'
        }``
-       <br>
+ 
 * **/api/v1/getipdata** -- GET -- show data by IP
 
 
